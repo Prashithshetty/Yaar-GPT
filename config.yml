@@ -1,5 +1,5 @@
 model_path:
-  large: "models/mistral-7b-instruct-v0.1.Q8_0.gguf"
+  large: "models/mistral-7b-instruct-v0.1.Q8_0.gguf" #mention the path to your ai model from hugging face 
 
 model_type: "mistral"
 
