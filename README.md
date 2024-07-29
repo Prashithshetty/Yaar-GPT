@@ -7,5 +7,6 @@ simply download the model from hugging face then mention its path to in the code
 few things to do 
 1. download the models mentioned in the progrma through hugging face they are free
 2. create a folder and name it chat_sessions to store your previous interactions locally
+3. one last thing open the streamlit_app.py and use streamlit run command to run the code 
 
 please feel free to improve my code 
