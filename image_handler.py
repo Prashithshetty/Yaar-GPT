@@ -7,9 +7,9 @@ def convert_bytes_to_base64(image_bytes):
     return "data:image/jpeg;base64," + encoded_string
 
 def handle_images(image_bytes_list, user_message):
-    chat_handler = Llava15ChatHandler(clip_model_path = "./models/llava/mmproj-model-f16.gguf")
+    chat_handler = Llava15ChatHandler(clip_model_path = "./models/llava/mmproj-model-f16.gguf") ##mention the model path here make sure its in gguf format 
     llm = Llama(
-        model_path = "./models//llava/ggml-model-q5_k.gguf",
+        model_path = "./models//llava/ggml-model-q5_k.gguf", #mention the model path here make sure its in gguf format 
         chat_handler = chat_handler,
         logits_all = True,
         n_ctx = 1024
